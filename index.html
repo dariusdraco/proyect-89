@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+
+        h2 {
+            color: #3379fc
+        }
+
+        #player_1 {
+            background-color: rgb(245, 255, 55);
+            width: 512px;
+        }
+
+        #player_2 {
+            background-color: rgb(31, 255, 83);
+            width: 512px;
+        }
+
+        .k {
+            color: white;
+        }
+    </style>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="quiz_game.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapeapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="quiz_name_login.js"></script>
+
+</head>
+
+<body>
+    <center>
+        <h2> The math quiz </h2>
+        <div id="player_1">
+            <h2> Player 1 login for the quiz game </h2>
+            <p> User Name : </p>
+            <input type="text" id="Player_1_name" hint="player 1 name">
+            <p class="k">.</p>
+            <br>
+        </div>
+        <br>
+        <br>
+        <div id="player_2">
+            <h2> Player 2 login for the quiz game</h2>
+            <p> User Name : </p>
+            <input type="text" id="Player_2_name" hint="player 2 name">
+            <br>
+            <p class="k">.</p>
+        </div>
+        <button id="Execute" onclick="adduser()" height="40px" width="100px"> Log in lah </button>
+    </center>
+</body>
+
+</html>
